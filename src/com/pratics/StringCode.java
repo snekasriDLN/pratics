@@ -1,6 +1,6 @@
 package com.pratics;
 
-import java.util.Scanner;
+//import java.util.Scanner;
 
 public class StringCode {
 	
@@ -13,12 +13,12 @@ public class StringCode {
 				difference*=-1;
 				return difference;
 			}
-		public static Scanner scan;
+		//public static Scanner scan;
 		public static void main(String[] args) {
-			scan = new Scanner(System.in);
+			//scan = new Scanner(System.in);
 			System.out.println("Enter The Input String");
-			String input=scan.nextLine();
-			//String input="WORLD WIDE WEB";
+			//String input=scan.nextLine();
+			String input="WORLD WIDE WEB";
 			char ch1,ch2;
 			int count,center,num1,num2,sum=0,output=0;
 			String[] letters=input.toUpperCase().split("\\s");
